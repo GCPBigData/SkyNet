@@ -2,8 +2,10 @@ export const environment = {
   production: true,
   /*  φ = '1,61803398874988'; */
 
+  /*TECNICOS*/
   tecnicosURLListarTodos: 'http://localhost/v1/tecnicos/',
-  tecnicosURLfindNome: 'http://localhost/v1/tecnicos/',
+  tecnicosURLfindNome: 'http://localhost/v1/findNome/',
+  tecnicoURLInsert: 'http://localhost/v1/salva/',
 
   /*BROKERAGES*/
   brokeragesURLInsert: 'http://177.47.18.202/zuul/brokerages/brokerages/',
